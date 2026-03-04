@@ -30,6 +30,33 @@ class DetailsScreen extends StatelessWidget {
                     ),
                   ),
                   const SizedBox(height: 20),
+
+                  // Ingredients section
+                  const Text(
+                    '🥕 Ingredients',
+                    style: TextStyle(
+                      fontSize: 20,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.deepOrange,
+                    ),
+                  ),
+                  const SizedBox(height: 10),
+
+                  ...recipe.ingredients.map(
+                    (ingredient) => Padding(
+                      padding: const EdgeInsets.symmetric(vertical: 4),
+                      child: Row(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          const Text('• ', style: TextStyle(fontSize: 16, color: Colors.deepOrange)),
+                          Expanded(
+                            child: Text(ingredient, style: const TextStyle(fontSize: 16)),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ),
+                  const SizedBox(height: 24),
                 ],
               ),
             ),

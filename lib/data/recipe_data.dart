@@ -25,7 +25,7 @@ final List<Recipe> sampleRecipes = [
   ),
   Recipe(
     name: 'Éclairs',
-    imagePath: 'assets/images/eclairs.jpg',
+    imagePath: 'assets/images/eclair.jpg',
     ingredients: [
       '1 cup water',
       '100g butter',
@@ -110,7 +110,7 @@ final List<Recipe> sampleRecipes = [
   ),
   Recipe(
     name: 'Pad Thai',
-    imagePath: 'assets/images/pad_thai.jpg',
+    imagePath: 'assets/images/pad-thai.jpg',
     ingredients: [
       '200g rice noodles',
       '200g shrimp or chicken',
