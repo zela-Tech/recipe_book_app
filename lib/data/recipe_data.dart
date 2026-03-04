@@ -109,47 +109,31 @@ final List<Recipe> sampleRecipes = [
       '7. Mix everything together before eating.',
   ),
   Recipe(
-  name: 'Afghan Curry with Cheese Naan',
-  imagePath: 'assets/images/afghan_curry.jpg',
-  ingredients: [
-    // Curry
-    '500g chicken or lamb, cut into chunks',
-    '2 onions, finely chopped',
-    '3 garlic cloves, minced',
-    '1 tbsp ginger, grated',
-    '2 tomatoes, chopped',
-    '1/2 cup yogurt',
-    '1 tsp turmeric',
-    '1 tsp cumin',
-    '1 tsp coriander powder',
-    '1/2 tsp chili powder (adjust to taste)',
-    'Salt and pepper to taste',
-    '3 tbsp vegetable oil',
-    'Fresh coriander to garnish',
-    // Cheese Naan
-    '2 cups all-purpose flour',
-    '1 tsp sugar',
-    '1 tsp salt',
-    '1/2 tsp baking powder',
-    '3/4 cup warm water',
-    '2 tbsp yogurt',
-    '50g grated cheese (mozzarella or cheddar)',
-    '1 tbsp melted butter for brushing',
-  ],
-  instructions:
-    '1. Heat oil in a large pan. Sauté onions until golden.\n\n'
-    '2. Add garlic and ginger, cook 1–2 minutes until fragrant.\n\n'
-    '3. Stir in turmeric, cumin, coriander, chili powder, salt, and pepper.\n\n'
-    '4. Add meat and brown on all sides.\n\n'
-    '5. Add chopped tomatoes and yogurt, mix well.\n\n'
-    '6. Cover and simmer on low heat for 30–40 minutes until meat is tender.\n\n'
-    '7. Garnish curry with fresh coriander.\n\n'
-    '--- Cheese Naan ---\n'
-    '8. In a bowl, mix flour, sugar, salt, and baking powder.\n\n'
-    '9. Add yogurt and warm water, knead into a soft dough. Let rest 30 minutes.\n\n'
-    '10. Divide dough into small balls, roll out slightly, place some grated cheese in the center, and fold edges to seal.\n\n'
-    '11. Roll gently into flat rounds.\n\n'
-    '12. Heat a skillet over medium-high heat, cook naan 2–3 minutes per side until golden.\n\n'
-    '13. Brush with melted butter and serve hot alongside the curry.',
-),
+    name: 'Pad Thai',
+    imagePath: 'assets/images/pad_thai.jpg',
+    ingredients: [
+      '200g rice noodles',
+      '200g shrimp or chicken',
+      '2 eggs',
+      '3 garlic cloves, minced',
+      '1 cup bean sprouts',
+      '3 green onions, chopped',
+      '1/4 cup roasted peanuts, crushed',
+      '2 tbsp fish sauce',
+      '1 tbsp soy sauce',
+      '1 tbsp tamarind paste',
+      '1 tbsp sugar',
+      '1 lime, cut into wedges',
+      '2 tbsp vegetable oil',
+      'Fresh coriander (optional)',
+    ],
+    instructions:
+      '1. Soak rice noodles in warm water for 20–30 minutes until soft. Drain.\n\n'
+      '2. In a wok or large skillet, heat oil over medium-high heat. Sauté garlic until fragrant.\n\n'
+      '3. Add shrimp or chicken and cook until done.\n\n'
+      '4. Push protein to one side, crack eggs into the wok, and scramble.\n\n'
+      '5. Add drained noodles, tamarind paste, fish sauce, soy sauce, and sugar. Toss to combine.\n\n'
+      '6. Stir in bean sprouts and green onions, cook 1–2 minutes until heated through.\n\n'
+      '7. Serve immediately with crushed peanuts, lime wedges, and fresh coriander on top.',
+  ),
 ];
