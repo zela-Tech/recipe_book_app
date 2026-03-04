@@ -11,7 +11,8 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('🍽️ Recipe Book', style: TextStyle(fontWeight: FontWeight.bold)),
-        backgroundColor: Colors.deepOrange,
+        backgroundColor: const Color.fromARGB(255, 255, 88, 42),
+        foregroundColor: Colors.white,
       ),
       body: ListView.builder(
         padding: const EdgeInsets.all(12),
@@ -31,8 +32,8 @@ class _RecipeCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Card(
-      margin: const EdgeInsets.only(bottom: 16),
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
+      margin: const EdgeInsets.only(bottom: 20),
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
       clipBehavior: Clip.antiAlias,
       elevation: 4,
       child: InkWell(
@@ -47,7 +48,7 @@ class _RecipeCard extends StatelessWidget {
           children: [
             // Hero-style imag
             SizedBox(
-              height: 180,
+              height: 190,
               width: double.infinity,
               child: Image.asset(
                 recipe.imagePath,
