@@ -14,7 +14,7 @@ class DetailsScreen extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             // Hero image
-            Image.asset(recipe.imagePath, height: 220, width: double.infinity, fit: BoxFit.cover),
+            Image.asset(recipe.imagePath, height: 280, width: double.infinity, fit: BoxFit.cover),
             // Name, Ingredients, Instructions…
             Padding(
               padding: const EdgeInsets.all(20),
@@ -37,7 +37,7 @@ class DetailsScreen extends StatelessWidget {
                     style: TextStyle(
                       fontSize: 20,
                       fontWeight: FontWeight.bold,
-                      color: Colors.deepOrange,
+                      color: Color.fromARGB(255, 156, 41, 6),
                     ),
                   ),
                   const SizedBox(height: 10),
@@ -57,6 +57,22 @@ class DetailsScreen extends StatelessWidget {
                     ),
                   ),
                   const SizedBox(height: 24),
+
+                  // Instructions section
+                  const Text(
+                    '👨‍🍳 Instructions',
+                    style: TextStyle(
+                      fontSize: 20,
+                      fontWeight: FontWeight.bold,
+                      color: Color.fromARGB(255, 156, 41, 6),
+                    ),
+                  ),
+                  const SizedBox(height: 10),
+                  Text(
+                    recipe.instructions,
+                    style: const TextStyle(fontSize: 16, height: 1.6),
+                  ),
+                  const SizedBox(height: 30),
                 ],
               ),
             ),
